@@ -9,3 +9,4 @@ active proctype Printer() {
 init {
     run Printer();
 }
+
