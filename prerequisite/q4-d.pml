@@ -12,11 +12,11 @@ active proctype P() {
  od
 
 for (j in array) {
-   sum = sum + array[j]; j++;
+   sum = sum + array[j];
 };
-/*for (j in array) {
+for (j in array) {
 printf("Array[%d]: %d\n", j,array[j])
-};*/
+};
  printf("The sum is: %d\n", sum)
 
 }
